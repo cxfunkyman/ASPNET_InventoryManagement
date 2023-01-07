@@ -15,15 +15,21 @@ namespace ASPNET_InventoryManagement.Controllers
 
         public ActionResult About()
         {
-            ViewBag.Message = "Your application description page.";
+            ViewBag.Message = "ASP.NET Inventory Management System.";
 
             return View();
         }
 
         public ActionResult Contact()
         {
-            ViewBag.Message = "Your contact page.";
+            ViewBag.Message = "Seky Perez Moya";
 
+            return View();
+        }
+
+        public ActionResult Help()
+        {
+            ViewBag.Message = "Development System Information";
             return View();
         }
     }
